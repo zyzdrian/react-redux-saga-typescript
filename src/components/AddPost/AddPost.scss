@@ -1,0 +1,18 @@
+.root {
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 6px 1px hsla(0, 0%, 80%, 0.7);
+    max-width: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}

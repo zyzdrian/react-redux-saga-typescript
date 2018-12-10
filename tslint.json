@@ -1,0 +1,13 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "linterOptions": {
+        "exclude": ["node_modules/**/*.ts"]
+    },
+    "rules": {
+        "prettier": true,
+        "trailing-comma": [true, { "multiline": "never", "singleline": "never", "esSpecCompliant": false }],
+        "jsx-space-before-trailing-slash": true,
+        "jsx-boolean-value": false
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"]
+}

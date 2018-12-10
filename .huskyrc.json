@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-commit": "pretty-quick --staged && npm run tslint",
+    "pre-push": "npm run tslint && npm test"
+  }
+}

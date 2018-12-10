@@ -1,0 +1,9 @@
+node_modules
+public
+build
+coverage
+__snapshots__
+deployment-conf/awsCredentials.sh
+.idea
+.env
+docker-compose.override.yml

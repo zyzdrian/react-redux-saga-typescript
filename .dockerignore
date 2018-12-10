@@ -1,0 +1,10 @@
+*
+!/__mocks__
+!/__tests__
+!/conf
+!/src
+!/webpack
+!package*.json
+!.babelrc
+!.eslintrc.json
+!.env

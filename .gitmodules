@@ -1,0 +1,3 @@
+[submodule "deployment-scripts"]
+	path = deployment-scripts
+	url = git@github.com:miquido/deployment-scripts.git
